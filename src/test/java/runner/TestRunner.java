@@ -8,12 +8,12 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features = "./Features/Admin.feature",
+		features = "./Features/",
 		glue = "steppackages",
 		dryRun = false,
 		monochrome = true,
 		publish = true,
-		tags = "@valid"
+		tags = "@regression"
 	
 	
 		

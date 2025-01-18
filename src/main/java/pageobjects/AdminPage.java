@@ -19,7 +19,7 @@ public class AdminPage {
 	// WebElement email=driver.findElement(By.xpath("//input[@id='Email']"));
 	// Maven project
 
-	@FindBy(xpath = "//input[@id='Emailllllllllll']")
+	@FindBy(xpath = "//input[@id='Email']")
 	WebElement textEmail;
 
 	@FindBy(xpath = "//input[@id='Password']")
